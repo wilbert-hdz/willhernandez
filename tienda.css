@@ -1,0 +1,77 @@
+body {
+    font-family: "New Amsterdam", sans-serif;
+    background-color: darkgrey;
+}
+
+li {
+    list-style: none;
+    margin-right: 25px;
+}
+
+ul {
+    display: flex;
+    font-size: 23px;
+}
+
+a {
+    font-size: 23px;
+    background: none;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+header {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    height: 135px;
+    background-color: blue;
+}
+
+.contenedor4 {
+    margin-top: 7%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;  
+    gap: 20px;
+}
+
+.item {
+    text-align: center;
+    display: flex;
+    flex-direction: column;  
+    justify-content: center; 
+}
+
+.item img {
+    display: block;
+    margin: 0 auto;
+    height: 250px;
+    object-fit: contain;
+}
+
+
+.comprar-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: "New Amsterdam";
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.comprar-btn:hover {
+    background-color: #0056b3;
+}
+
+.mensaje-compra {
+    font-size: 16px;
+    margin-top: 5px;
+    color: rgb(90, 128, 0);
+}
+
